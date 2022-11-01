@@ -18,7 +18,7 @@ hotReloadPattern = True
 ####################################
 # Import Dependencies
 import json, re
-from flask import Flask, request
+from flask import Flask
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
