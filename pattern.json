@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "string",
+    "pattern": "無聊",
+    "response": "無聊？那聽一下這個吧：\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "mode": "regex",
+    "pattern": "^.*hello.*$",
+    "response": "Hello, how are you?"
+  },
+  {
+    "mode": "string",
+    "pattern": "Test",
+    "response": "Test"
+  }
+]
