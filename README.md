@@ -39,6 +39,15 @@ The pattern config is a JSON array, each element is a pattern object. The patter
 }
 ```
 
+You can also set the "response" property to a string array, the bot will randomly choose the response from array, here is the example:
+```json:
+{
+    "mode": "regex | string",
+    "pattern": "pattern string",
+    "response": ["response A", "response B", "response C"],
+}
+```
+
 Modes:
 - `regex`: The pattern string will be treated as a regular expression. If the message matches the pattern, the response will be sent.
 - `string`: The pattern string will be treated as a string. If the message contains the pattern, the response will be sent. Please notice that the pattern is case sensitive.
