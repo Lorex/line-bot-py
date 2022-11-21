@@ -13,5 +13,10 @@
     "mode": "string",
     "pattern": "Test",
     "response": "Test"
+  },
+  {
+    "mode": "string",
+    "pattern": "憂鬱症",
+    "response": ["回應 A", "回應 B", "回應 C"]
   }
 ]
